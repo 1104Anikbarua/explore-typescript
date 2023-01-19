@@ -1,0 +1,41 @@
+.input {
+    display: flex;
+    width: 90%;
+    position: relative;
+    align-items: center;
+}
+
+.input_box {
+    width: 100%;
+    position: absolute;
+    border-radius: 50px;
+    padding: 20px 30px;
+    font-size: 25px;
+    border: none;
+    transition: 0.2s;
+    box-shadow: inset 0 0 2px black;
+}
+
+.input_submit {
+    position: absolute;
+    width: 55px;
+    height: 55px;
+    margin: 12px;
+    padding: 0 5px;
+    right: 0px;
+    border-radius: 50px;
+    border: none;
+    font-size: 15px;
+    background-color: #0D175F;
+    color: white;
+    transition: 0.2s all;
+    box-shadow: 0 0 5px black;
+}
+
+@media (max-width: 667px) {
+    .input {
+        width: 70%;
+        justify-content: center;
+        top: 50px;
+    }
+}
